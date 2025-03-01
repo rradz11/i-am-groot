@@ -24,16 +24,16 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_lints: ^2.0.0
+flutter_lints: ^2.0.0 # Linter untuk menjaga kualitas kode
 
-  flutter_launcher_icons: ^0.13.1
+  flutter_launcher_icons: ^0.13.1 # Plugin untuk mengganti ikon aplikasi
 
 flutter:
-  uses-material-design: true
+  uses-material-design: true # Mengaktifkan Material Design
 
   assets:
-    - assets/im_blue.png
-    - assets/baby_blue.png
+    - assets/im_blue.png # Gambar yang digunakan dalam aplikasi
+    - assets/baby_blue.png # Gambar lain yang digunakan
 
 flutter_icons:
   android: true
