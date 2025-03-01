@@ -17,12 +17,12 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.blue, // Warna AppBar biru
           centerTitle: true, // Membuat judul berada di tengah
         ),
-        body: Center(
+       body: Center(
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.center, // Pusatkan elemen secara vertikal
             children: [
-              Image.asset('assets/im_blue.png', width: 500),
-              const SizedBox(height: 30),
+              Image.asset('assets/im_blue.png', width: 500), // Menampilkan gambar
+              const SizedBox(height: 30), // Jarak antar elemen
               Container(
                 padding: const EdgeInsets.all(20),
                 decoration: BoxDecoration(
