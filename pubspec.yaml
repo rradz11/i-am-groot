@@ -1,16 +1,22 @@
 name: i_am_groot
 description: A new Flutter project.
 
-publish_to: 'none'
+publish_to: 'none' # Tidak dipublikasikan ke pub.dev
 
-version: 1.0.0+1
+version: 1.0.0+1 # Versi aplikasi
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: '>=3.0.0 <4.0.0' # Versi SDK Flutter yang didukung
 
 dependencies:
   flutter:
     sdk: flutter
+
+  cupertino_icons: ^1.0.2 # Ikon tambahan bergaya iOS
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter # Library untuk pengujian aplikasi
 
   cupertino_icons: ^1.0.2
 
