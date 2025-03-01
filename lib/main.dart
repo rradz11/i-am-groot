@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const MyApp()); // Menjalankan aplikasi Flutter
 }
 
 class MyApp extends StatelessWidget {
@@ -10,12 +10,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: false, // Menyembunyikan banner debug
       home: Scaffold(
         appBar: AppBar(
           title: const Text("I Am Blue"),
-          backgroundColor: Colors.blue, // Warna biru
-          centerTitle: true,
+          backgroundColor: Colors.blue, // Warna AppBar biru
+          centerTitle: true, // Membuat judul berada di tengah
         ),
         body: Center(
           child: Column(
