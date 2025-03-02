@@ -26,11 +26,12 @@ class MyApp extends StatelessWidget {
               Container(
                 padding: const EdgeInsets.all(20),
                 decoration: BoxDecoration(
-                  color: Colors.blue, // Warna biru
-                  borderRadius: BorderRadius.circular(20),
+                  color: Colors.blue, // Warna latar belakang kontainer biru
+                  borderRadius: BorderRadius.circular(20), // Membuat sudut melengkung
                 ),
                 child: const Column(
                   children: [
+                    // Informasi tentang lagu "Blue" oleh Eiffel 65
                     Text("🎶 Lagu ikonik milik Eiffel 65",
                         style: TextStyle(fontSize: 20)),
                     Text("▶️ Musiknya catchy dan ikonik",
