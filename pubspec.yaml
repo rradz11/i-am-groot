@@ -24,7 +24,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-flutter_lints: ^2.0.0 # Linter untuk menjaga kualitas kode
+  flutter_lints: ^2.0.0 # Linter untuk menjaga kualitas kode
 
   flutter_launcher_icons: ^0.13.1 # Plugin untuk mengganti ikon aplikasi
 
@@ -36,8 +36,8 @@ flutter:
     - assets/baby_blue.png # Gambar lain yang digunakan
 
 flutter_icons:
-  android: true
-  ios: true
-  image_path: "assets/baby_blue.png"
-  adaptive_icon_background: "#ffffff"
-  adaptive_icon_foreground: "assets/baby_blue.png"
+  android: true # Mengaktifkan ikon khusus untuk Android
+  ios: true # Mengaktifkan ikon khusus untuk iOS
+  image_path: "assets/baby_blue.png" # Ikon utama aplikasi
+  adaptive_icon_background: "#ffffff" # Warna latar belakang ikon adaptif
+  adaptive_icon_foreground: "assets/baby_blue.png" # Gambar ikon adaptif
